@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "42648310d3c15355",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c65af4575aa33da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "810bebd38e4baea8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Design and Analysis of Algorithms/Chapter 1 Introduction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 1 Introduction"
+            }
+          },
+          {
+            "id": "59fd1d875635fb10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Latex CheatSheat.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Latex CheatSheat"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5bd8586777709f95",
+    "type": "split",
+    "children": [
+      {
+        "id": "bac612f84eb78cb9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "837ad2bc7b48aaf3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "af4d9e83e6648e50",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0579fcfa873b2e42",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "fe7c65725d7d7bf6",
+    "type": "split",
+    "children": [
+      {
+        "id": "33c8e3fcc62bbe1e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2990d671350df407",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CSAPP/Chapter 1 A Tour of Computer Systems.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Chapter 1 A Tour of Computer Systems"
+            }
+          },
+          {
+            "id": "7ebbb6e3664322fe",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Make Files.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Make Files"
+            }
+          },
+          {
+            "id": "1c3e72e3774252cf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b3b8d07e3aec20d3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "8c810362468123a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Make Files.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Make Files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "webpage-html-export:Export as HTML": false
+    }
+  },
+  "active": "810bebd38e4baea8",
+  "lastOpenFiles": [
+    "Design and Analysis of Algorithms/Index of Design and Analysis of Algorithms.md",
+    "Design and Analysis of Algorithms/Chapter 2 Basics Algorithms.md",
+    "Design and Analysis of Algorithms/Chapter 1 Introduction.md",
+    "Index.md",
+    "Shell Scripting/Index for Shell Scripting.md",
+    "Linux commands.pdf",
+    "Latex CheatSheat.md",
+    "GCC commands.pdf",
+    "Git Cheat sheet.pdf",
+    "Pasted image 20251228185737.png",
+    "CSAPP/Chapter 1 A Tour of Computer Systems.md",
+    "CSAPP/Index for CSAPP (Computer Systems A Programmer's Perspective ).md",
+    "Make Files.md",
+    "Pasted image 20251228042510.png",
+    "travelling_salesman_problem.png",
+    "Pasted image 20251228034522.png",
+    "Shell Scripting",
+    "Design and Analysis of Algorithms",
+    "GCC commands.md",
+    "Untitled.base",
+    "Pasted image 20251225142445.png",
+    "2025-12-25.md",
+    "Untitled.canvas",
+    "Pasted image 20251225140359.png",
+    "Pasted image 20251223173157.png",
+    "CSAPP"
+  ]
+}
