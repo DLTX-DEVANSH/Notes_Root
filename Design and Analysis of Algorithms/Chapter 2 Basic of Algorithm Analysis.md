@@ -38,3 +38,12 @@ we can see in insertion sort that during start , subarray only has 1 element and
 
 **Q. 2.1-4**
 Consider the problem of adding two $n$-bit binary integers, stored in two $n$-element arrays $A$ and $B$. The sum of the two integers should be stored in binary form in an $(n + 1)$-element array $C$. State the problem formally and write pseudocode for adding the two integers. [Solution](https://github.com/DLTX-DEVANSH/Algorithm-Design-/tree/main/chapter%202/exercises_solution/2.1-5)
+
+>[!abstract] Selection sort 
+>**Q. 2.2-2**  
+Consider sorting n numbers stored in array A by first finding the smallest element of A and exchanging it with the element in `A[1]`.  Then find the second smallest element of A, and exchange it with `A[2]`. Continue in this manner for the first `n-1` elements of A. Write pseudocode for this algorithm, which is known as selection sort.[Solution](https://github.com/DLTX-DEVANSH/Algorithm-Design-/tree/main/chapter%202/exercises_solution/2.2-2)
+
+
+
+
+

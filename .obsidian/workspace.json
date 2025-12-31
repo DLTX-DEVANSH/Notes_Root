@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0c65af4575aa33da",
+        "id": "baaf21ab722d7209",
         "type": "tabs",
         "children": [
           {
-            "id": "810bebd38e4baea8",
+            "id": "1117666e4dd79801",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design and Analysis of Algorithms/Chapter 1 Introduction.md",
+                "file": "Design and Analysis of Algorithms/Chapter 2 Basic of Algorithm Analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 1 Introduction"
-            }
-          },
-          {
-            "id": "59fd1d875635fb10",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Latex CheatSheat.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Latex CheatSheat"
+              "title": "Chapter 2 Basic of Algorithm Analysis"
             }
           }
         ]
@@ -198,11 +184,14 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "810bebd38e4baea8",
+  "active": "1117666e4dd79801",
   "lastOpenFiles": [
-    "Design and Analysis of Algorithms/Index of Design and Analysis of Algorithms.md",
-    "Design and Analysis of Algorithms/Chapter 2 Basics Algorithms.md",
     "Design and Analysis of Algorithms/Chapter 1 Introduction.md",
+    "CSAPP/Chapter 1 A Tour of Computer Systems.md",
+    "CSAPP/Index for CSAPP (Computer Systems A Programmer's Perspective ).md",
+    "Design and Analysis of Algorithms/Chapter 2 Basic of Algorithm Analysis.md",
+    "Pasted image 20251231151136.png",
+    "Design and Analysis of Algorithms/Index of Design and Analysis of Algorithms.md",
     "Index.md",
     "Shell Scripting/Index for Shell Scripting.md",
     "Linux commands.pdf",
@@ -210,8 +199,6 @@
     "GCC commands.pdf",
     "Git Cheat sheet.pdf",
     "Pasted image 20251228185737.png",
-    "CSAPP/Chapter 1 A Tour of Computer Systems.md",
-    "CSAPP/Index for CSAPP (Computer Systems A Programmer's Perspective ).md",
     "Make Files.md",
     "Pasted image 20251228042510.png",
     "travelling_salesman_problem.png",
