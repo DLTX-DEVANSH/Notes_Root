@@ -29,7 +29,7 @@ INSERTION-SORT(A)
 when `i` points to a element then the sub array `A[1 : i-1]` that is already sorted , then we compare the element `A[i]` by each element in sub array and find the correct spot and insert the value . this loop continues until entire array is sorted . 
 ![[Pasted image 20251228185737.png]]
 
-####  *Loop Invariants* 
+#### Loop Invariants 
 Loop invariants help us understand why an algorithm is correct . for loop invariant we need to show 3 things 
 **Initialization :** It is true prior to the first iteration of the loop. 
 **Maintenance :** If it is true before an iteration of the loop, it remains true before the next iteration. **Termination :** When the loop terminates, the invariant gives us a useful property that helps show that the algorithm is correct. 
