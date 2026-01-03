@@ -1,4 +1,4 @@
-### Algorithms
+#### Algorithms
 
 ***Algorithms*** is a well defined computational procedure / steps that gives the same output for some input 
 ![[Pasted image 20251228034522.png | 400]]
