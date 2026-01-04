@@ -205,3 +205,5 @@ n = 2^i \\
 $$
 hence $c_2n\cdot\log_2n$ 
 so $\Theta(n\cdot\log_2n)$
+
+[[Index|BackLink to main Index]]
