@@ -7,5 +7,6 @@
     "downscalePercent": 100
   },
   "showLineNumber": false,
-  "showIndentGuide": false
+  "showIndentGuide": false,
+  "useMarkdownLinks": false
 }

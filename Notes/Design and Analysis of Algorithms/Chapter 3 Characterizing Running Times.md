@@ -4,7 +4,7 @@ When we study the order of growth we study the **Asymptotic Analysis** that mean
 Even though we generally talk about the Runtime Asymptotic notation , these notation can be used for anything from space analysis or even functions that haven nothing to do with Algorithms
 
 ##### $O\text{-notation}$
-This sets the upper bound  for the growth of function , in other words the function grows no faster then the upper limit eg:- if you cars top speed is 250 kmph , then we can be sure that under not circumstances the car would go faster than 250kmph . 
+This sets the upper bound  for the growth of function , in other words the function grows no faster then the upper limit eg:- if you cars top speed is 250 kmph , then we can be sure that under no circumstances the car would go faster than 250kmph . 
 
 In terms of functions assume this:-
 the function is $7n^3 + 8n + 5$ we can be sure that is doesn't grow faster than $n^3$ , hence 
@@ -47,6 +47,7 @@ $$
 $$
 [Solutions to exercise 3.1](https://github.com/DLTX-DEVANSH/Algorithm-Design-/tree/main/chapter_3/exercise_solutions/section3.1)
 
+--- 
 #### Formal Definition for notations 
 ##### $O$-notation
 the formal definition of $O-notation$ states the *asymptotic upper Bound* for the function 
@@ -74,6 +75,89 @@ $$
 	  &n^3 - 50n^2 = O(n^2) \\
 	  &n^3 - 50n^2 \le cn^2 \\ 
 	  &n - 50 \le c \\
-	  &\text{no matter what value we choose for n > c + 50 , this equality will never hold } 
+	  &\text{no matter what value we choose for n > c + 50 , this equality will never hold } \\
+	  &\text{if } n = c + k , k > 50 \\
+	  & c +k - 50 \le c \\
+	  & k \le 50 \text{ this makes are assumptions wrong and hence not possible}
 \end{aligned}
+$$
+##### $\Omega-notation$ 
+$\Omega-notation$ provides a *lower asymptotic bound* for the function
+$$
+\begin{aligned}
+\Omega(g(n)) = \{f(n): & \text{there exists a positive constant c and }n_0 \text{ such that } \\                    &  0\le cg(n) \le f(n) \text{ for all } n\ge n_0 \}   
+\end{aligned}
+$$
+![[Pasted image 20260110131405.png |300]]
+eg:- if $n^2/100 -100n -500 =\Omega(n^2)$ 
+$$
+\begin{aligned}
+	&\frac{n^2}{100} - 100n - 500 \ge cn^2\\
+	&\frac{1}{100} - \frac{100}n - \frac{500}{n^2} \ge c \\
+	\\
+	&\text{now if we take values of (n,c) like :- (10005 , }2.49 \times10^{-9}) \text{ this equailty holds } 
+\end{aligned}
+$$
+##### $\Theta-notation$
+This gives the *Asymptotic Tight Bound* for a function 
+$$
+\begin{aligned}
+	\Theta(g(n)) = \{ f(n):&\text{ there exists postitive constant }c_1,c_2,n_o \text{ such that} \\
+	&0\le c_1g(n) \le f(n) \le c_2g(n) \text{ for all } n \ge n_o \} 
+\end{aligned}
+$$
+![[Pasted image 20260110132847.png | 300]]
+
+###### Equivalence theorem for Big-Theta
+**Theorem:** For any two strictly positive functions $f(n)$ and $g(n)$, we have $f(n)=\Theta(g(n))$ if and only if $f(n) = \Omega(g(n))$ and $f(n) = O(g(n))$ 
+[proof]()
+
+###### Precise use of notation 
+when using notations we have to extremely precise as the notations lose any form of significance if a detail is missed in stating them . for example saying insertion sorts running time is $\Theta(n^2)$ makes no sense as in best case scenario it takes $\Theta(n)$ so without specifying what case , the notation is meaningless . we can say $O(n^2)$ for all cases , which is true as even it worst case it goes till $n^2$ but again won't be that useful , same way we can say $\Omega(n)$ for all cases as even in best case it would take at least $n$ .  
+
+Same way if there is a function $3n^2 + 5n + 20$ saying that for worst case the running time is $O(n^4)$ will be correct ( look at our definition ) but it wont be useful , it is like saying a truck will run at most as fast as a bullet train , yeah it is true that it will always run slower than train maybe equal to it ( in imagination ofc) but not more than that , still it doesn't tell us anything about the trucks actual speed .  
+
+##### Notations in equations and inequalities 
+we know that   $f(n) = O(n)$ means  $f(n) \ \ \epsilon \ \ O(n)$ . but what if we have a weird equation like $4n^2 + 6n -2 =4n^2 +\Theta(n)$  . what does it mean ? in such case it means that there $4n^2 + 6n -2 =4n^2 + g(n)$ where $g(n) \ \ \epsilon \ \ O(n)$  , just that g(n) is not important enough in comparison to rest of the equation or not we don't care enough to write it's name
+
+what if a notation comes in left hand side , $n^2 +\Theta(n) = \Theta(n^2)$ this simply means that the right hand side must be able to be denoted in the notation that will make the equation valid . 
+eg:- $2n^2 + f(n) = g(n) \text{ ,where }g(n) \ \epsilon \ \Theta(n^2)$  . basically saying that right hand side always provides a rougher detail about the function/algorithm 
+so it becomes $2n^2 + 50n + 6 \ = \ 2n^2 + \Theta(n) = \Theta(n^2)$ 
+
+##### Weird nuances in notations 
+when we use a asymptotic notation , it is pretty clear that with respect to which variable are we studying . if we say $\Theta(g(n))$ we are studying the growth of $g(n)$ wrt to $n \to \infty$ . but when we talk about constant time , it is pretty difficult to guess which variable goes to $\infty$ .
+in this case to lessen the ambiguity we generally look for the context to make it clear which variable tend to $\infty$ . example $f(n) = O(1)$ shows the $n \to \infty$ .
+
+another weird issue is with recurrences . take a look 
+$T(n) = O(1) \text{ for } n<3$ . okay ? we know that $T(n) \le constant, \text{ for some } n>n_0$  but if that $n_0$ is 3 then what ? we wanted to say that $T(n)$ is less than some constant when n < 3 but now by the definition of big-O notation , it is not possible  .
+To get rid of such ambiguity we explicitly say $T(n) \le constant \text{ for some }n>n_0$ 
+
+We also directly say $f(n) \ \epsilon \ \Theta(g(n))$ even when the inputs are not continuous , like an algorithm that takes only inputs of size $2^n$ , in such cases we generally  assume or know that  it holds for the domain of $f(n)$ . 
+
+##### o-notation (little-oh)
+O-notation may or may not be asymptotically tight . $2n^2 = O(n^2)$ is asymptotically tight but $5n = O(n^2)$ is not asymptotically tight . we define little o as a upper bound function that is definitely not asymptotically tight . 
+$$
+\begin{aligned}
+o(g(n)) = \{f(n): & \text{for any positive constant  c and }n_0 \text{ such that } \\                    &  0\le f(n) < cg(n) \text{ for all } n\ge n_0 \}   
+\end{aligned}
+$$
+**Note:** unlike big-O , little o needs to be defined for *every constant c*
+so $2n = o(n^2) \ \ but \ \ 2n^2\neq o(n^2)$ 
+$$
+\lim_{n \to \infty} \frac{f(n)}{g(n)} = 0 
+$$
+as $f(n)<c.g(n)$ for all c > 0 hence g(n) must be of different order (higher than f(n) ) . hence 
+$$
+\lim_{n \to \infty} \frac{f(n)}{g(n)} = 0 
+$$
+##### $\omega-notation$ (little omega)
+similarly to small o , little omega give lower bound that is definitely not asymptotically tight
+$$
+\begin{aligned}
+\omega(g(n)) = \{f(n): & \text{for any constant c and }n_0 \text{ such that } \\                    &  0\le cg(n) < f(n) \text{ for all } n\ge n_0 \}   
+\end{aligned}
+$$
+and by same logic 
+$$
+\lim_{n \to \infty} \frac{f(n)}{g(n)} = \infty 
 $$

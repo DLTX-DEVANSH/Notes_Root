@@ -11,14 +11,12 @@
             "id": "056a820b561e8642",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Notes/Design and Analysis of Algorithms/Chapter 3 Characterizing Running Times.md",
-                "mode": "source",
-                "source": false
+                "file": "Notes/Pasted image 20260110132847.png"
               },
-              "icon": "lucide-file",
-              "title": "Chapter 3 Characterizing Running Times"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260110132847"
             }
           },
           {
@@ -198,13 +196,16 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "056a820b561e8642",
+  "active": "837ad2bc7b48aaf3",
   "lastOpenFiles": [
-    "Notes/Latex CheatSheat.md",
+    "Notes/Pasted image 20260110132847.png",
     "Notes/Design and Analysis of Algorithms/Chapter 3 Characterizing Running Times.md",
-    "Pasted image 20260109145112.png",
-    "Notes/Design and Analysis of Algorithms/Chapter 2 Basic of Algorithm Analysis.md",
+    "Notes/Latex CheatSheat.md",
+    "().md",
     "Notes/Design and Analysis of Algorithms/Index of Design and Analysis of Algorithms.md",
+    "Notes/Pasted image 20260110131405.png",
+    "Notes/Pasted image 20260109145112.png",
+    "Notes/Design and Analysis of Algorithms/Chapter 2 Basic of Algorithm Analysis.md",
     "Index.md",
     "Notes/CSAPP/Index for CSAPP (Computer Systems A Programmer's Perspective ).md",
     "Readme.md",
@@ -224,8 +225,6 @@
     "Notes/Design and Analysis of Algorithms/Chapter 1 Introduction.md",
     "Notes/Make Files.md",
     "Notes/Shell Scripting/Index for Shell Scripting.md",
-    "Notes/Pasted image 20260102070643.png",
-    "Notes/Pasted image 20260102064654.png",
     "Notes/Shell Scripting",
     "Notes/Design and Analysis of Algorithms",
     "GCC commands.md",
