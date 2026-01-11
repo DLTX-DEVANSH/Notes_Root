@@ -8,5 +8,6 @@
   },
   "showLineNumber": false,
   "showIndentGuide": false,
-  "useMarkdownLinks": false
+  "useMarkdownLinks": false,
+  "tabSize": 5
 }

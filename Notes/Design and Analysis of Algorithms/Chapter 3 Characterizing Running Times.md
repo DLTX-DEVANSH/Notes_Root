@@ -72,11 +72,11 @@ $$
 we can also use this to disprove certain wrong notations  
 $$
 \begin{aligned}
-	  &n^3 - 50n^2 = O(n^2) \\
-	  &n^3 - 50n^2 \le cn^2 \\ 
-	  &n - 50 \le c \\
+	  & n^3 - 50n^2 = O(n^2) \\
+	  & n^3 - 50n^2 \le cn^2 \\ 
+	  & n - 50 \le c \\
 	  &\text{no matter what value we choose for n > c + 50 , this equality will never hold } \\
-	  &\text{if } n = c + k , k > 50 \\
+	  & \text{if } n = c + k , k > 50 \\
 	  & c +k - 50 \le c \\
 	  & k \le 50 \text{ this makes are assumptions wrong and hence not possible}
 \end{aligned}

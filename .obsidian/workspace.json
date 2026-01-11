@@ -8,15 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "056a820b561e8642",
+            "id": "e57de56af3aaf0df",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Notes/Pasted image 20260110132847.png"
+                "file": "Notes/Design and Analysis of Algorithms/Chapter 3 Characterizing Running Times.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260110132847"
+              "icon": "lucide-file",
+              "title": "Chapter 3 Characterizing Running Times"
             }
           },
           {
@@ -90,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fe7c65725d7d7bf6",
@@ -106,17 +109,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSAPP/Chapter 1 A Tour of Computer Systems.md",
+                "file": "Notes/Design and Analysis of Algorithms/Chapter 3 Characterizing Running Times.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Chapter 1 A Tour of Computer Systems"
+              "title": "Backlinks for Chapter 3 Characterizing Running Times"
             }
           },
           {
@@ -196,23 +199,24 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "837ad2bc7b48aaf3",
+  "active": "e57de56af3aaf0df",
   "lastOpenFiles": [
-    "Notes/Pasted image 20260110132847.png",
+    "Notes/Git Cheat sheet.pdf",
+    "Readme.md",
     "Notes/Design and Analysis of Algorithms/Chapter 3 Characterizing Running Times.md",
-    "Notes/Latex CheatSheat.md",
+    "Index.md",
     "().md",
     "Notes/Design and Analysis of Algorithms/Index of Design and Analysis of Algorithms.md",
+    "Notes/Design and Analysis of Algorithms/Chapter 2 Basic of Algorithm Analysis.md",
+    "Notes/Design and Analysis of Algorithms/Chapter 1 Introduction.md",
+    "Notes/Pasted image 20260110132847.png",
+    "Notes/Latex CheatSheat.md",
     "Notes/Pasted image 20260110131405.png",
     "Notes/Pasted image 20260109145112.png",
-    "Notes/Design and Analysis of Algorithms/Chapter 2 Basic of Algorithm Analysis.md",
-    "Index.md",
     "Notes/CSAPP/Index for CSAPP (Computer Systems A Programmer's Perspective ).md",
-    "Readme.md",
     "Notes/travelling_salesman_problem.png",
     "Notes/Pasted image 20251225142445.png",
     "Notes/Pasted image 20260103234409.png",
-    "Notes/Git Cheat sheet.pdf",
     "Notes/GCC commands.pdf",
     "Notes",
     "Notes/Linux commands.pdf",
@@ -222,7 +226,6 @@
     "Notes/Pasted image 20260103223131.png",
     "Notes/Pasted image 20260103214805.png",
     "Notes/Pasted image 20260102185439.png",
-    "Notes/Design and Analysis of Algorithms/Chapter 1 Introduction.md",
     "Notes/Make Files.md",
     "Notes/Shell Scripting/Index for Shell Scripting.md",
     "Notes/Shell Scripting",
