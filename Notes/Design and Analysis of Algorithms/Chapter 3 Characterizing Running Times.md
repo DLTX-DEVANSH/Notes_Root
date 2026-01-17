@@ -161,3 +161,190 @@ and by same logic
 $$
 \lim_{n \to \infty} \frac{f(n)}{g(n)} = \infty 
 $$
+----
+#### Mathematical Functions 
+
+##### Monotonicity 
+ A function is said to be monotonically increasing  if $f(m) \ge g(n)$ if $m \ge n$ 
+ >[!note] Explanation of Equality 
+ >the reason why we include equality in the above equation for $m \ge n$ is that due to *HemoIsoMorphism* of the function . which means that for any two different values m and n , the equality may or may not hold ( the slop becomes 0 and graph flatlines ) but even if the values of m and n are equal then by common sense the graph will be equal . but just to give the full picture that m = n wiil also hold the equality true , we write it as $m \ge n$ 
+ >formally this is written as "The entire  domain maps to Range  of function "
+ >
+
+##### Strictly Increasing functions 
+
+A function is said to be strictly increasing if 
+$$
+\begin{aligned}
+	&f(m)>g(n) \text{  ,  if } m> n
+\end{aligned}
+$$
+*The graph of the function cannot flat line in any case*
+
+##### Floor and ceiling functions 
+
+*Floor* of a x denotes the integer value lower or equal to x 
+intuitively $\lfloor x \rfloor = x - \{x\}$ where {x} denotes the GIF of the function 
+
+*ceiling* of a x denotes the the integer value just grater or equal to x 
+intuitively $\lceil x \rceil = x + 1 - \{ x \}$  
+
+###### The general Inequalilty is 
+$$
+x - 1 < \lfloor x \rfloor \le x \le \lceil x \rceil < x + 1
+$$
+###### Reflective Property 
+$$
+\begin{aligned}
+-\lfloor x \rfloor &= \lceil -x \rceil \\
+-\lceil x \rceil &= \lfloor -x \rfloor
+\end{aligned}
+$$
+###### Nested Division with bounds 
+$$
+\begin{aligned}
+\left\lfloor \frac{\lfloor x/a \rfloor}{b} \right\rfloor &= \left\lfloor \frac{x}{ab} \right\rfloor \\[10pt]
+\left\lceil \frac{\lceil x/a \rceil}{b} \right\rceil &= \left\lceil \frac{x}{ab} \right\rceil \\[10pt]
+\left\lceil \frac{a}{b} \right\rceil &\le \frac{a + (b-1)}{b} \\[10pt]
+\left\lfloor \frac{a}{b} \right\rfloor &\ge \frac{a - (b-1)}{b}
+\end{aligned}
+$$
+###### Integer Translation 
+$$
+\begin{aligned}
+\lfloor n + x \rfloor &= n + \lfloor x \rfloor \\
+\lceil n + x \rceil &= n + \lceil x \rceil
+\end{aligned}
+$$
+
+---
+----
+##### Modular Arithmetic
+modular arithmetic means focusing on the remainder of the division 
+$$
+a \ mod \ n = a - n\lfloor \frac{a}n \rfloor
+$$
+proof 
+$$
+\begin{aligned}
+	& Q = q\cdot n + r \\
+	& r = Q - n\cdot q\\
+	& r = Q - n \lfloor \frac{Q}{n} \rfloor
+\end{aligned}
+$$
+Equivalency in mod:-   $a\  mod \ n = b \ mod \ n$ then $(a=b) \ mod \ n$. This means that the remainder of 2 numbers is equal not that both numbers are equal 
+
+---
+----
+##### Polynomial
+Polynomial in of degree d is a fucntion $p(n)$ 
+$$
+\sum_{i=0}^d a_i \cdot n^i 
+$$
+where $a_d \neq 0$ 
+
+The Asymptotic running bound for p(n) is $p(n) = \Theta(n^d)$
+$$
+\begin{align*}
+% Definition
+P(n) &= \sum_{i=0}^{d} a_i n^i \\
+\\
+% Big O Proof
+\text{1. Proof for } O(n^d): \\
+0 &\le P(n) \le c \cdot n^d \\
+a_0 + a_1 n + a_2 n^2 + \dots + a_d n^d &\le c \cdot n^d \\
+\text{Divide by } n^d: \quad \frac{a_0}{n^d} + \frac{a_1}{n^{d-1}} + \dots + \frac{a_{d-1}}{n} + a_d &\le c \\
+\text{Choose constants: } (c, n_0) &= \left( \sum_{i=0}^d a_i, 1 \right) \\
+\\
+% Big Omega Proof
+\text{2. Proof for } \Omega(n^d): \\
+0 \le c \cdot g(n) = c \cdot n^d &\le a_0 + a_1 n + \dots + a_d n^d \\
+c &\le \frac{a_0}{n^d} + \dots + a_d \\
+\text{Choose constants: } (c, n_0) &= (a_d, 0) \\
+\\
+% Conclusion
+\therefore \text{By equivalence theorem: } P(n) &= \Theta(n^d)
+\end{align*}
+$$
+----
+----
+
+##### Exponential 
+
+$$
+e^x = \sum_{i=0}^\infty \frac{x^i}{i!} 
+$$
+We also have the inequality 
+$$
+1 + x \le e^x 
+$$
+When $|x| \le 1$ we have the approximation 
+$$
+1 + x \le e^x \le  1 + x + x^2 
+$$
+but when $x \to 0$ we can approximate it to 
+$$
+e^x = 1 + x + \Theta(x^2)
+$$
+when $x \to \infty$ we use approximation 
+$$
+\lim_{n \to \infty} (1 + \frac{x}n)^n = e^x
+$$
+for ln(x+1)
+$$
+\ln(1+x) = \sum_{i=1}^\infty (-1)^{2+1} \frac{x^i}i
+$$
+we also have a inequality for $x > -1$
+$$
+\frac{x}{1+x} \le \ln(1+x) \le x
+$$
+we say a function is *polylogarithmically* bounded if $f(n) = O(\lg^k n)$   
+
+----
+----
+##### Factorial 
+$$
+n! = \begin{cases} 
+  1 & \text{if } n =0\\
+  n\cdot (n-1)! & \text{if } n > 0
+\end{cases}
+$$
+###### Sterling's Approximation 
+$$
+n! = \sqrt{n \pi n} (\frac{n}e)^n (1 + \Theta(\frac{1}n) 
+$$
+
+$$
+\begin{aligned}
+& n! = o(n^n) \\
+& n! = \omega(2^n) \\
+& \lg(n!) = \Theta(n\cdot lgn)
+\end{aligned}
+$$
+---
+---
+##### Functional iteration 
+$f^{(i)}(n)$ to denote the function $f(n)$ iteratively applied i times until a base case of value $n$ is reached  
+$$
+f^{(i)}(n) = \begin{cases}
+	n & \text{if } i =0 \\
+	f(f^{(i-1)}(n))& \text{if  } i >0	
+\end{cases}
+$$
+---
+----
+##### Iterated Logarithm function 
+the term $lg^* n$ to denote the iterated logarithm function . as $lg^{(i)} n$ is only defined for non-negative values $lg^{(i)} n > 0$
+
+$lg^* n = min\{i \ge 0:lg^{(i)} n \le 1\}$
+where $lg^* n$ is the smallest integer $i$ such that applying the logarithm $i$ times result in a value becoming $\le 1$ 
+Example:-
+$$
+\begin{aligned}
+ &lg^* 16 = 3 \\
+  &\text{as } lg(lg(lg(16))) = 1
+\end{aligned}
+$$
+
+
+ 

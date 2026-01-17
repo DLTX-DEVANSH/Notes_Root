@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e57de56af3aaf0df",
+            "id": "ea41ff339c855af3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "ea41ff339c855af3",
+            "id": "b42e54c684980535",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fe7c65725d7d7bf6",
@@ -199,27 +198,30 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "e57de56af3aaf0df",
+  "active": "ea41ff339c855af3",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Notes/Design and Analysis of Algorithms/Chapter 3 Characterizing Running Times.md",
+    "Notes/Latex CheatSheat.md",
+    "Notes/Data Science (MITS)/13th jan 2025.md",
+    "Notes/Data Science (MITS)",
+    "Notes/Linux commands.pdf",
+    "Notes/GCC commands.pdf",
     "Notes/Git Cheat sheet.pdf",
     "Readme.md",
-    "Notes/Design and Analysis of Algorithms/Chapter 3 Characterizing Running Times.md",
     "Index.md",
     "().md",
     "Notes/Design and Analysis of Algorithms/Index of Design and Analysis of Algorithms.md",
     "Notes/Design and Analysis of Algorithms/Chapter 2 Basic of Algorithm Analysis.md",
     "Notes/Design and Analysis of Algorithms/Chapter 1 Introduction.md",
     "Notes/Pasted image 20260110132847.png",
-    "Notes/Latex CheatSheat.md",
     "Notes/Pasted image 20260110131405.png",
     "Notes/Pasted image 20260109145112.png",
     "Notes/CSAPP/Index for CSAPP (Computer Systems A Programmer's Perspective ).md",
     "Notes/travelling_salesman_problem.png",
     "Notes/Pasted image 20251225142445.png",
     "Notes/Pasted image 20260103234409.png",
-    "Notes/GCC commands.pdf",
     "Notes",
-    "Notes/Linux commands.pdf",
     "Notes/CSAPP/Chapter 2- Representing and Manipulating Information.md",
     "Notes/CSAPP/Chapter 1- A Tour of Computer Systems.md",
     "Notes/Pasted image 20260103233846.png",
