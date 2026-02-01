@@ -4,10 +4,10 @@ When we study the order of growth we study the **Asymptotic Analysis** that mean
 Even though we generally talk about the Runtime Asymptotic notation , these notation can be used for anything from space analysis or even functions that haven nothing to do with Algorithms
 
 ##### $O\text{-notation}$
-This sets the upper bound  for the growth of function , in other words the function grows no faster then the upper limit eg:- if you cars top speed is 250 kmph , then we can be sure that under no circumstances the car would go faster than 250kmph . 
+This sets the upper bound  for the growth of function , in other words the function grows no faster then the upper limit eg:- if your cars top speed is 250 kmph , then we can be sure that under no circumstances the car would go faster than 250kmph . 
 
 In terms of functions assume this:-
-the function is $7n^3 + 8n + 5$ we can be sure that is doesn't grow faster than $n^3$ , hence 
+the function is $7n^3 + 8n + 5$ we can be sure that it doesn't grow faster than $n^3$ , hence 
 the big O notation for running time for this is $O(n^3)$ , we can also see that this function doesn't grow faster than $n^4,n^5,n^6.......\text{and so on}$ so we can also say that $O(n^k) \text{ where } k \ge 3$ 
 
 ##### $\Omega \text{-notation}$ 
@@ -110,7 +110,6 @@ $$
 
 ###### Equivalence theorem for Big-Theta
 **Theorem:** For any two strictly positive functions $f(n)$ and $g(n)$, we have $f(n)=\Theta(g(n))$ if and only if $f(n) = \Omega(g(n))$ and $f(n) = O(g(n))$ 
-[proof]()
 
 ###### Precise use of notation 
 when using notations we have to extremely precise as the notations lose any form of significance if a detail is missed in stating them . for example saying insertion sorts running time is $\Theta(n^2)$ makes no sense as in best case scenario it takes $\Theta(n)$ so without specifying what case , the notation is meaningless . we can say $O(n^2)$ for all cases , which is true as even it worst case it goes till $n^2$ but again won't be that useful , same way we can say $\Omega(n)$ for all cases as even in best case it would take at least $n$ .  
@@ -245,7 +244,7 @@ where $a_d \neq 0$
 
 The Asymptotic running bound for p(n) is $p(n) = \Theta(n^d)$
 $$
-\begin{align*}
+\begin{aligned}
 % Definition
 P(n) &= \sum_{i=0}^{d} a_i n^i \\
 \\
@@ -264,7 +263,7 @@ c &\le \frac{a_0}{n^d} + \dots + a_d \\
 \\
 % Conclusion
 \therefore \text{By equivalence theorem: } P(n) &= \Theta(n^d)
-\end{align*}
+\end{aligned}
 $$
 ----
 ----
@@ -347,4 +346,3 @@ $$
 $$
 
 
- 

@@ -119,10 +119,19 @@ A file is a sequence of bytes , nothing more nothing else .
 #### Amdahl's Law 
 This is simple observation made by *Gene Amdahl* that relates the overall speedup of a system to the part and degree of speedup of a specific system.
 lets say that the old  time of system is $T_{old}$ . The fraction of the system that is sped up is $\alpha$
-by a factor of $k$ so $$T_{new} = (1-\alpha)T_{old} + \frac{\alpha \cdot T_{old}}{k}$$
+by a factor of $k$ so 
+$$
+T_{new} = (1-\alpha)T_{old} + \frac{\alpha \cdot T_{old}}{k}
+$$
 
-and the speedup S is $$S = \frac{T_{old}}{T_{new}} = \frac{1}{(1-\alpha) + \frac{\alpha}{k}}$$
-special case when k = $\infty$ $$S_{\infty} = \frac{1}{1-\alpha }$$
+and the speedup S is 
+$$
+S = \frac{T_{old}}{T_{new}} = \frac{1}{(1-\alpha) + \frac{\alpha}{k}}
+$$
+special case when k = $\infty$ 
+$$
+S_{\infty} = \frac{1}{1-\alpha }
+$$
 
 ---
 
